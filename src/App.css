@@ -1,0 +1,69 @@
+.App{
+  margin: 0px auto;
+  width: 1300px;
+
+}
+.Addcourse{
+  position: relative;
+  
+}
+.Card{
+  position: relative;
+  width: 400px !important;
+  left: 430px;
+  top: 40px;
+  color: rgb(243, 241, 241) !important;
+    background-color: sienna !important;
+    padding: 50px 50px 50px 50px !important;
+    border-radius: 10px !important;
+    
+    box-shadow: rgba(0, 0, 0, 0.267) 0px 10px 20px, rgba(0, 0, 0, 0.301) 10px 16px 16px;
+    
+  
+}
+
+/* .ant-card-head-title { */
+  .h1{
+  display: inline-block;
+  flex: 1 1;
+  padding: 16px 0;
+  overflow: hidden;
+  white-space: nowrap;
+  color: #fff;
+  text-overflow: ellipsis;
+  text-align: center;
+  position: relative;
+  bottom: 30px;
+  left: 32px;
+} 
+/* .button:hover{
+  color: rgb(8, 8, 8) !important;
+  background-color:rgb(168, 27, 180) !important;
+  box-shadow: inset;
+} */
+.button{
+  position: relative !important;
+  left: 85px !important;
+
+  background-image: linear-gradient(#0dccea, #0d70ea) !important;
+  border: 0 !important;
+  border-radius: 4px !important;
+  box-shadow: rgba(0, 0, 0, .3) 0 5px 15px !important;
+  box-sizing: border-box !important;
+  color: #fff !important;
+  cursor: pointer !important;
+  font-family: Montserrat,sans-serif !important;
+  font-size: .9em !important;
+  margin: 1px !important;
+  padding:8px 15px !important;
+  text-align: center !important;
+  user-select: none !important;
+  -webkit-user-select: none !important;
+  touch-action: manipulation !important;
+}
+
+
+.red-star{
+  color: rgba(211, 23, 23, 0.863);
+  margin-left: 2px;
+}
